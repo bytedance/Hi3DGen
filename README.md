@@ -25,7 +25,7 @@ Hi3DGen target at generating high-fidelity 3D geometry from images using normal 
 ## Installation
 Clone the repo:
 ```bash
-git clone --recursive https://github.com/Stable-X/Hi3DGen.git
+git clone --recursive https://github.com/ByteDance/Hi3DGen.git
 cd Hi3DGen
 ```
 
