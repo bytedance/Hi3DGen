@@ -1,14 +1,25 @@
 # Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging
-<div align="center">
-<p style='text-align: center;'>
-            <strong>V0.1, Introduced By 
-            <a href="https://gaplab.cuhk.edu.cn/" target="_blank">GAP Lab</a> from CUHKSZ and 
-            <a href="https://www.nvsgames.cn/" target="_blank">Game-AIGC Team</a> from ByteDance</strong>
-</p>
+
+<div class="is-size-5 publication-authors">
+  <span class="author-block"><a href="https://github.com/hugoycj">Chongjie Ye</a><sup>1,2*</sup>,</span>
+  <span class="author-block"><a href="https://yushuang-wu.github.io">Yushuang Wu</a><sup>2*</sup>,</span>
+  <span class="author-block"><a href="" onclick="return false;">Ziteng Lu</a><sup>1</sup>,</span>
+  <span class="author-block"><a href="https://scholar.google.com/citations?hl=en&user=HA5zLp4AAAAJ">Jiahao Chang</a><sup>1</sup>,</span>
+  <span class="author-block"><a href="" onclick="return false;">Xiaoyang Guo</a><sup>2</sup>,</span>
+  <span class="author-block"><a href="https://scholar.google.com/citations?hl=en&user=qn61WqgAAAAJ">Jiaqing Zhou</a><sup>2</sup>,</span>
+  <span class="author-block"><a href="https://sites.google.com/view/fromandto">Hao Zhao</a><sup>3</sup>,</span>
+  <span class="author-block"><a href="https://gaplab.cuhk.edu.cn">Xiaoguang Han</a><sup>1#</sup></span>
 </div>
 
-![image](https://github.com/user-attachments/assets/7170101f-fc40-44f3-912e-534d10d6804e)
- 
+
+<div class="is-size-5 publication-authors">
+  <span class="author-block"><sup>1</sup>The Chinese University of Hong Kong, Shenzhen,&nbsp;&nbsp;</span>
+  <span class="author-block"><sup>2</sup>ByteDance,&nbsp;&nbsp;</span>
+  <span class="author-block"><sup>3</sup>AIR, Tsinghua University</span>
+</div>
+
+![teaser-1](assets/teaser.gif)
+
 <div align="center">
 
 [![Website](https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg)](https://stable-x.github.io/Hi3DGen/) 
@@ -18,9 +29,6 @@
  </div>
 
 Hi3DGen target at generating high-fidelity 3D geometry from images using normal maps as an intermediate representation. The framework addresses limitations in existing methods that struggle to reproduce fine-grained geometric details from 2D inputs.
-
-## News
-**[April 13, 2025]** 🚀 Hi3DGen v0.1 Released! 🔥🔥🔥 Hi3DGen-MV is still under training, we expect to release it by April 20th. Model Offloading for compatible 8 GB GPU memory is expected by April 17th.
 
 ## Installation
 Clone the repo:
