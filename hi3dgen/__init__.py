@@ -21,10 +21,10 @@
 # SOFTWARE.
 
 # Copyright (c) [2025] [Microsoft]
-# Copyright (c) [2025] [Chongjie Ye] 
+# Copyright (c) [2025] Bytedance Ltd. and/or its affiliates
 
 # SPDX-License-Identifier: MIT
-# This file has been modified by Chongjie Ye on 2025/04/10
+# This file has been modified by Bytedance Ltd. and/or its affiliates on 2025/04/10
 #
 # Original file was released under MIT, with the full license text
 # available at https://github.com/atong01/conditional-flow-matching/blob/1.0.7/LICENSE.
