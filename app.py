@@ -93,7 +93,7 @@ def generate_3d(image, seed=-1,
         seed = np.random.randint(0, MAX_SEED)
     
     image = hi3dgen_pipeline.preprocess_image(image, resolution=1024)
-    normal_image = normal_predictor(image, resolution=768, match_input_resolution=True, data_type='object')
+    normal_image = nirne_predictor(image, resolution=768, match_input_resolution=True, data_type='object')
 
     outputs = hi3dgen_pipeline.run(
         normal_image,
@@ -271,10 +271,7 @@ if __name__ == "__main__":
     hi3dgen_pipeline.cuda()
 
     # Initialize normal predictor
-    try:
-        normal_predictor = torch.hub.load(os.path.join(torch.hub.get_dir(), 'hugoycj_StableNormal_main'), "StableNormal_turbo", yoso_version='yoso-normal-v1-8-1', source='local', local_cache_dir='./weights', pretrained=True)
-    except:
-        normal_predictor = torch.hub.load("hugoycj/StableNormal", "StableNormal_turbo", trust_repo=True, yoso_version='yoso-normal-v1-8-1', local_cache_dir='./weights')    
+    nirne_predictor = torch.hub.load("NiRNE", "NiRNE", trust_repo=True, local_cache_dir='./weights')
 
     # Launch the app
     demo.launch(share=False, server_name="0.0.0.0", server_port=6073, auth=("aabb", "aabb"))

@@ -1,0 +1,3 @@
+[submodule "NiRNE"]
+	path = NiRNE
+	url = https://github.com/lzt02/NiRNE.git
