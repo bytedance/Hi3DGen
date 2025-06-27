@@ -58,10 +58,6 @@ Run by:
 python app.py
 ```
 
-<!-- License -->
-## License
-The model and code of Hi3DGen are adapted from [**Trellis**](https://github.com/microsoft/TRELLIS), which are licensed under the [MIT License](LICENSE). While the original Trellis is MIT licensed, we have specifically removed its dependencies on certain NVIDIA libraries (kaolin, nvdiffrast, flexicube) to ensure this adapted version can be used commercially. Hi3DGen itself is distributed under the [MIT License](LICENSE).
-
 ## Citation
 If you find this work helpful, please consider citing our paper:
 ```
