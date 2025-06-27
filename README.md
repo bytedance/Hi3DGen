@@ -11,6 +11,7 @@
   <span class="author-block"><a href="https://gaplab.cuhk.edu.cn">Xiaoguang Han</a><sup>1#</sup></span>
 </div>
 
+<h3 align="center">ICCV 2025</h3>
 
 <div class="is-size-5 publication-authors">
   <span class="author-block"><sup>1</sup>The Chinese University of Hong Kong, Shenzhen,&nbsp;&nbsp;</span>
