@@ -274,5 +274,5 @@ if __name__ == "__main__":
     nirne_predictor = torch.hub.load("NiRNE", "NiRNE", trust_repo=True, local_cache_dir='./weights')
 
     # Launch the app
-    demo.launch(share=False, server_name="0.0.0.0")
+    demo.launch(share=False, server_name="localhost")
 
